@@ -1,6 +1,6 @@
 
-const userKm = prompt("Inserisci i kilometri da percorrere");
-const userAge = prompt("Inserisci la tua età");
+const userKm = Number.parseFloat(prompt("Inserisci i kilometri da percorrere")  , 10);
+const userAge = Number.parseInt(prompt("Inserisci la tua età") , 10);
 document.getElementById("userKm").innerHTML = (userKm);
 document.getElementById("userAge").innerHTML = (userAge);
 
